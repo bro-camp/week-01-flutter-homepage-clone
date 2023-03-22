@@ -1,0 +1,117 @@
+footer {
+  background-color: var(--grey-1);
+  padding: 70px var(--gutter);
+}
+
+#footer-main-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#footer-flutter-logo {
+  width: 126px;
+}
+
+#footer-main-content-right {
+  display: flex;
+  gap: 80px;
+  margin-right: 100px;
+}
+
+.footer-link-container {
+  list-style: none;
+  font-size: var(--font-size-heading-5);
+  font-family: var(--font-gsans);
+
+}
+
+.footer-link-heading {
+  color: black;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  margin-bottom: 10px;
+}
+
+.footer-link a {
+  color: var(--grey-6);
+  font-weight: var(--font-weight-default);
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
+#footer-hr {
+  color: rgba(255, 255, 255, 0.5);
+  height: 1px;
+  margin: 30px 0;
+}
+
+#footer-social ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+
+
+#footer-social ul li a {
+  text-decoration: none;
+}
+
+#footer-social-youtube img {
+  width: 21px;
+}
+
+#footer-social-twitter img,
+#footer-social-github img,
+#footer-social-meetup img {
+  width: 18.5px;
+}
+
+#footer-social-linkedin img,
+#footer-social-medium img {
+  width: 16px;
+}
+
+#footer-tray {
+  display: flex;
+  gap: 180px;
+  margin-bottom: 20px;
+}
+
+#copyright-text {
+  color: var(--grey-6);
+  font-family: var(--font-gsans);
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight-default);
+  display: flex;
+  align-items: flex-start;
+}
+
+#footer-tray-link-container ul {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  align-items: flex-start
+}
+
+#footer-tray-link-container ul li a {
+  text-decoration: none;
+  color: var(--grey-6);
+  font-family: var(--font-gsans);
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight-default);
+}
+
+#footer-tray-link-container ul li a:hover {
+  text-decoration: underline;
+}

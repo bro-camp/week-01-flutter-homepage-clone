@@ -1,0 +1,67 @@
+#section-newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 90px;
+}
+
+#newsletter-left-side h2 {
+  font-size: var(--font-size-heading-1);
+  line-height: 1;
+  color: #000;
+  font-family: var(--font-gsans);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -.005em;
+}
+
+#newsletter-right-side h3 {
+  max-width: 700px;
+  color: var(--grey-6);
+  font-size: var(--font-size-heading-3);
+  font-family: var(--font-gsans);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -.005em;
+  line-height: 1.2;
+  margin-bottom: var(--spacer-md);
+}
+
+#newsletter-email-field-wrapper svg {
+  overflow: visible;
+  width: 28px;
+  color: var(--grey-5);
+}
+
+#newsletter-email-field-wrapper {
+  align-items: center;
+  background-color: var(--grey-2);
+  border: 1px solid transparent;
+  border-radius: 63px;
+  display: flex;
+  height: 70px;
+  padding: 0 var(--spacer-md);
+  color: var(--grey-6);
+  font-family: var(--font-gsans);
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight-default);
+}
+
+#newsletter-email-field {
+  width: 100%;
+  margin-left: 10px;
+  background-color: transparent;
+  border-radius: 0;
+  font-size: 1rem;
+  font-family: var(--font-gsans);
+  font-weight: var(--font-weight-default);
+  line-height: 1.5rem;
+  padding: .5rem .75rem;
+  color: black;
+  border: none;
+  appearance: none;
+  box-shadow: none;
+  outline: none;
+}
+
+#newsletter-email-field:focus {
+  outline: 1px solid #2563eb;
+}

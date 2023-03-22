@@ -1,0 +1,147 @@
+section#section-hero {
+  padding-top: 100px;
+  min-height: 250vh;
+
+
+  background-color: #1a68d3;
+  background-image: radial-gradient(ellipse at bottom, #1a68d3 5%, transparent 60%),
+    linear-gradient(136deg, transparent, #71c7ee 290%),
+    linear-gradient(115deg, #9d9af1, transparent 40%),
+    linear-gradient(180deg, transparent 0, #1a68d3 70%),
+    radial-gradient(ellipse at -70% -180%, transparent 80%, #71c7ee 0),
+    radial-gradient(ellipse at bottom, #1a68d3 40%, transparent 80%),
+    radial-gradient(ellipse at 5% 340%, transparent 80%, #bfc2f4 0);
+}
+
+section#section-hero h1 {
+  color: white;
+  font-size: var(--font-size-heading-1);
+  font-family: var(--font-gsans);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -.005em;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 65px;
+  /* margin-bottom: 0; */
+}
+
+section#section-hero h2 {
+  color: #fff;
+  font-family: var(--font-gsans);
+  font-size: var(--font-size-heading-2);
+  font-weight: 400;
+  margin: 0 auto 40px;
+  max-width: 880px;
+  letter-spacing: -.005em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#hero-get-started-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#hero-get-started-button {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Google Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 24px;
+  height: var(--ui-btn-height);
+  width: max-content;
+  padding: 0 var(--spacer-md);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+  color: #0468d7;
+}
+
+#hero-gallery {
+  margin-left: -65px;
+  display: flex;
+  gap: 30px;
+  overflow-x: hidden;
+  padding-top: 140px;
+  padding-bottom: 90px;
+}
+
+#hero-gallery-center {
+  margin-top: -110px;
+}
+
+#hero-gallery-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#hero-gallery-left-bottom {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+#hero-gallery-right {
+  display: flex;
+  gap: 20px;
+}
+
+#hero-gallery-right-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#hero-gallery-right-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 110px;
+}
+
+img#hero-gallery-desktop {
+  height: 296px;
+  border-radius: var(--ui-border-radius-sm);
+}
+
+img#hero-gallery-songs {
+  height: 296px;
+  border-radius: var(--ui-border-radius-sm);
+  margin-top: 110px;
+}
+
+img#hero-gallery-gym {
+  height: 296px;
+  border-radius: var(--ui-border-radius-sm);
+}
+
+img#hero-gallery-car {
+  height: 764px;
+  border-radius: var(--center-border-radius);
+}
+
+img#hero-gallery-color {
+  height: 296px;
+  border-radius: var(--ui-border-radius-sm);
+}
+
+img#hero-gallery-resorts {
+  height: 296px;
+  border-radius: var(--ui-border-radius-sm);
+}
+
+img#hero-gallery-weather {
+  height: 296px;
+  border-radius: var(--ui-border-radius-sm);
+}
+
+img#hero-gallery-money {
+  height: 296px;
+  border-radius: var(--ui-border-radius-sm);
+}

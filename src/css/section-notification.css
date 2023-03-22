@@ -1,0 +1,30 @@
+#section-notification {
+  padding: 75px 125px;
+}
+
+#section-notification div {
+  display: flex;
+  align-items: center;
+  background-color: var(--blue-6);
+  color: white;
+  font-family: var(--font-gsans);
+  font-size: var(--font-size-heading-4);
+  border-radius: 6px;
+  padding: var(--gutter-sm);
+}
+
+#section-notification div a {
+  text-decoration: none;
+  color: white;
+}
+
+#section-notification div a svg {
+  width: 12px;
+  overflow: visible;
+  color: white;
+}
+
+#section-notification div img {
+  margin-right: var(--gutter-sm);
+  width: 50px;
+}

@@ -1,0 +1,14 @@
+#section-dart .gradient-container {
+  background-image: linear-gradient(90deg, #9cc4f5, #b8f0f7);
+}
+
+#section-dart-button {
+  background-color: transparent;
+  color: black;
+  border-color: black;
+  /* font-weight: var(--font-weight-bold); */
+}
+
+#section-developer-story .gradient-container {
+  background-image: linear-gradient(90deg, #ff8485, #f9eac6);
+}

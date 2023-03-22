@@ -1,0 +1,106 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 86px;
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-right-side {
+  display: flex;
+}
+
+
+.header-flutter-logo {
+  width: 126px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+
+  list-style: none;
+  color: white;
+  font-family: var(--font-gsans);
+  font-size: var(--font-size-default);
+  font-weight: var(--font-weight-bold);
+}
+
+header nav ul li {
+  background-color: transparent;
+  border-radius: var(--ui-border-radius);
+  cursor: pointer;
+  height: var(--ui-btn-height);
+  padding: 13px 16px;
+  min-width: max-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.3s ease;
+}
+
+header nav ul li:hover {
+  background-color: hsla(0, 0%, 98%, 0.15);
+
+}
+
+.header-search-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 25px;
+
+  background-color: transparent;
+  border-radius: var(--ui-border-radius);
+  cursor: pointer;
+  height: var(--ui-btn-height);
+  width: var(--ui-btn-height);
+
+  transition: background-color 0.3s ease;
+}
+
+.header-search-icon-container:hover {
+  background-color: hsla(0, 0%, 98%, 0.15);
+}
+
+.header-search-icon-container svg {
+  overflow: visible;
+  width: 14px;
+  height: 14px;
+  color: white;
+}
+
+.header-get-started-button,
+.header-flutter-forward-button {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Google Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 24px;
+  height: var(--ui-btn-height);
+  padding: 0 var(--spacer-md);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-get-started-button {
+  background-color: white;
+  color: #0468d7;
+  margin-right: 25px;
+}
+
+.header-flutter-forward-button {
+  background-color: #833ef2;
+  color: white;
+}

@@ -1,0 +1,11 @@
+#section-multi-platform h4 {
+  color: var(--blue-4);
+}
+
+#section-dx h4 {
+  color: var(--green-3);
+}
+
+#section-stable h4 {
+  color: var(--coral);
+}

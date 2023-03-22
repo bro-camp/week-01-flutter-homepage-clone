@@ -1,0 +1,118 @@
+#section-community {
+  margin-bottom: 100px;
+}
+
+#logo-garden {
+  display: flex;
+  gap: 24px;
+  overflow-x: hidden;
+  margin-left: -65px;
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.image-card {
+  background-color: var(--grey-1);
+  border-radius: var(--ui-border-radius-sm);
+  box-shadow: var(--ui-drop-shadow-sm);
+  display: grid;
+  width: 163px;
+  height: 163px;
+  padding: 35px;
+  /* margin-bottom: 24px; */
+  place-items: center;
+}
+
+.image-card img {
+  height: auto;
+  max-width: 100%;
+}
+
+.logo-col-center .image-card {
+  height: 356px;
+  width: 356px;
+  padding: 35px;
+}
+
+.logo-col-with-2 {
+  margin-top: 60px;
+}
+
+.logo-col-with-3 {
+  margin-top: -50px;
+}
+
+.logo-col-with-4 {
+  margin-top: 20px;
+}
+
+#community-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -300px;
+}
+
+#community-text-container h4 {
+  color: var(--grey-6);
+  font-size: var(--font-size-heading-4);
+  font-family: var(--font-gsans);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -.005em;
+  line-height: 1.2;
+  text-align: center;
+  max-width: 780px;
+}
+
+#community-text-container h2 {
+  color: black;
+  font-family: var(--font-gsans);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -.005em;
+  font-size: var(--font-size-heading-1);
+  line-height: 1;
+  margin: 0;
+  text-align: center;
+  max-width: 780px;
+}
+
+#community-text-container p {
+  line-height: 1.4;
+  color: var(--grey-6);
+  font-size: var(--font-size-heading-4);
+  font-weight: var(--font-weight-default);
+  font-family: var(--font-gsans);
+  text-align: center;
+  max-width: 500px;
+  margin-top: 40px;
+}
+
+#community-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#join-community-button {
+  text-decoration: none;
+  display: inline-flex;
+  font-family: var(--font-gsans);
+  font-weight: var(--font-weight-bold);
+  height: var(--ui-btn-height);
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: var(--font-size-default);
+}
+
+#join-community-button svg {
+  overflow: visible;
+  width: 11px;
+  margin-top: 5px;
+}
